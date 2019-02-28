@@ -173,6 +173,7 @@ h1.featured-title{
 	display: inline-block;
 
 
+
 }
 
 .row1 {
@@ -265,4 +266,88 @@ img {
 	border-bottom: 5px solid #fff;
 	padding-bottom: 10px;
 
+}
+.news-container {
+	background: #eeeeee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.productman-news {
+	font: 900  48px/48px'Raleway', sans-serif;
+	color: #303030;
+	padding-top: 110px;
+	padding-bottom: 30px;
+}
+.news-desc {
+	font: 400 18px/24px'Raleway', sans-serif;
+	padding-bottom: 40px;
+
+}
+.subscrie-form {
+	width: 700px;
+	padding-bottom: 110px;
+}
+.email {
+	padding-top:20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	max-width: 460px;
+	width: 100%;
+	border-top-left-radius: 30px;
+	border-bottom-left-radius: 30px;
+	font-size: 30px;
+	font: 500 18px/24px 'Raleway', sans-serif;
+	font-style: italic;
+
+}
+
+
+
+.email-submit {
+	max-width: 210px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	width: 100%;
+	font:900 18px/24px 'Roboto';
+	text-transform: uppercase;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	cursor: pointer;
+}
+
+.email-submit:hover {
+	background-color: #e10011;
+	color: #fff;
+}
+
+.footer {
+	text-align: center;
+}
+
+.social {
+	padding-bottom: 60px;
+}
+.social-pics li {
+	width: 95px;
+	height: 75px;
+	display: inline-block;
+	padding: 0 10px;
+}
+.social-pics li img {
+	width: 100%;
+	height: 100%;
+}
+	
+.footer-sub {
+	font: 400 18px/24px'Raleway', sans-serif;
+	color: #979797;
+	padding-bottom: 30px;	
+
+}
+
+.footer-sub span{
+	color: #000;
 }
